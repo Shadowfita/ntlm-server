@@ -138,7 +138,7 @@ If you're interested in helping out or have ideas, feel free to contribute.
 
 ### Example 1: Express Middleware
 
-An express middleware example that uses [ldapts](https://github.com/ldapts/ldapts) to fetch user information based on the [User Principal Name](https://learn.microsoft.com/en-us/windows/win32/ad/naming-properties#userprincipalname) returned by the AuthenticateMessage
+An express middleware example that uses [ldapts](https://github.com/ldapts/ldapts) to fetch user information based on the [User Principal Name](https://learn.microsoft.com/en-us/windows/win32/ad/naming-properties#userprincipalname) returned by the [AuthenticateMessage](https://github.com/Shadowfita/ntlm-server/blob/main/src/messages/ntlm_authenticate_message.ts). Caching or cookies should be used to reduce the amount of challenge and LDAP requests.
 
 ```typescript
 const app = express();
@@ -215,7 +215,7 @@ app.listen(port, () => {
 
 ### Example 2: Next.js Middleware
 
-A Next.js middleware example that secures routes based on the existence of a userName in the authenticate message. Caching or cookies should be used to reduce the amount of challenge requests.
+A Next.js middleware example that secures routes based on the existence of a userName in the [AuthenticateMessage](https://github.com/Shadowfita/ntlm-server/blob/main/src/messages/ntlm_authenticate_message.ts). Caching or cookies should be used to reduce the amount of challenge requests.
 
 This could be moved to an API endpoint where a library like [ldapts](https://github.com/ldapts/ldapts) could be used to fetch user information from ActiveDirectory.
 
