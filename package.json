@@ -1,15 +1,19 @@
 {
-  "name": "ntlm-server",
-  "author": "Ryan Palmer (Shadowfita)",
-  "version": "0.1.0",
-  "type": "commonjs",
-  "scripts": {
-    "build": "tsc"
-  },
-  "devDependencies": {
-    "@types/express": "^4.17.21",
-    "@types/node": "^22.5.4",
-    "ts-node-dev": "^2.0.0",
-    "typescript": "^5.5.4"
-  }
+    "name": "ntlm-server",
+    "author": "Ryan Palmer (Shadowfita)",
+    "version": "0.1.0",
+    "type": "commonjs",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsc"
+    },
+    "devDependencies": {
+        "@types/node": "^22.5.4",
+        "ts-node-dev": "^2.0.0",
+        "typescript": "^5.5.4"
+    }
 }
