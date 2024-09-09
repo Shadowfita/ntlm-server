@@ -1,4 +1,6 @@
 {
+  "name": "ntlm-server",
+  "author": "Ryan Palmer (Shadowfita)",
   "version": "0.1.0",
   "type": "commonjs",
   "scripts": {
