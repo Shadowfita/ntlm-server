@@ -129,4 +129,4 @@ dist
 .yarn/install-state.gz
 .pnp.*
 ntlmtest.7z
-package-lock.json
+ntlm-server.zip
