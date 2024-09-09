@@ -114,7 +114,7 @@ The current version of this library supports NTLM v1 with extended session secur
 
 ## Contributing
 
-We welcome contributions! To contribute, please follow these steps:
+I welcome contributions! To contribute, please follow these steps:
 
 1. Fork the repository.
 2. Create a new feature branch (`git checkout -b feature-name`).
