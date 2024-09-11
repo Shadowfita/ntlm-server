@@ -15,6 +15,7 @@
         "type": "git",
         "url": "https://github.com/Shadowfita/ntlm-server.git"
     },
+    "license": "BSD-3-Clause",
     "devDependencies": {
         "@types/node": "^22.5.4",
         "ts-node-dev": "^2.0.0",
